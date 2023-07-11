@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: white;
+}
+
+/* 
+List of colors used 
+
+Heading - #111827
+Sub Heading - #4B5563
+Background color - #F9FAFB
+Card's Right Section Background - #F3F4F6 
+Text's Color - #6B7280
+What's Included Horizontal line - #E5E7EB
+What's Included Text - #4F46E5
+Button Background - #1F2937
+*/
+
+.up-box{
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
+
+}
+.main{
+    margin: 20px;
+
+}
+.heading{
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 28px;
+    color: #111827;
+}
+.sub-heading{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #6B7280;
+}
+.box{
+    background-color: #fff;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.header h3{
+    color: #111827;
+}
+.info{
+    padding: 20px 20px 20px 30px;
+	background-color: white;
+	border-radius: 5px;
+}
+.info p{
+    color: #6B7280;
+	font-size: 16px;
+}
+.tab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text{
+    flex-grow: 0;
+    color: #4F46E5;
+	font-size: 20px; 
+	font-weight: 600;
+	padding-right: 10px;
+}
+.die{
+    flex-grow: 1;
+	height: 2px;
+	background-color: #E5E7EB;
+}
+.ponits ul{
+    display: inline-block;
+	padding: 0;
+	font-size: 14px;
+}
+.ponits ul li{
+    display: inline-block;
+	margin-bottom: 20px;
+	padding-right: 50px;
+	width: 200px;
+	text-decoration: none;
+}
+.ponits ul li svg{
+    height: 14px;
+}
+.price-box{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    text-align: center;
+}
+.price-box h1{
+    margin: 10px;
+    font-size: 48px;
+}
+.price-box span{
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.price-box a{
+    color:#6B7280 ;
+    font-size: 15px;
+}
+.btn{
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    background: #1F2937;
+    color: #ffff;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.line{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.last{
+    font-size: 16px;
+    font-weight: 600;
+}
+.last span{
+    font-size: 16px;
+    color: #6B7280;
+}
+
+@media only screen and (max-width: 1000px) {
+    .up-box{
+        width: 100%;
+        min-height: 30vh;
+    }
+
+    .box{
+        width: 100%;
+        max-width: 400px;
+        min-width: 400px;
+        margin: auto;
+        background-color: #ffff;
+        display: block;
+        border: none;
+        border-radius: 8px;
+
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    /* .price-box{
+        max-width: 100%;
+        background-color: #f1f1f1;
+    } */
+
+    .last{
+        padding-bottom: 20px;
+    }
+}
